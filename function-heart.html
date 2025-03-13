@@ -1,0 +1,22 @@
+<!DOCTYPE html>  
+<html lang="ru">  
+<head>  
+    <title>Для Лидии</title>  
+    <link rel="stylesheet" href="function-heart.css">  
+    <meta charset="utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Убедитесь, что это присутствует для мобильных устройств -->  
+</head>  
+<body>  
+    <div id="obal">  
+        <canvas id="c"></canvas>  
+        <script>  
+            var b = document.body;  
+            var c = document.getElementsByTagName('canvas')[0];  
+            var a = c.getContext('2d');  
+            c.width = window.innerWidth; // Устанавливаем ширину canvas  
+            c.height = window.innerHeight; // Устанавливаем высоту canvas  
+        </script>  
+    </div>  
+    <script src="function-heart.js"></script>  
+</body>  
+</html>  
